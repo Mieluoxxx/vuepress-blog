@@ -27,12 +27,13 @@ export default defineUserConfig({
 
 
     navbar: [
-      { text: "Home", link: "/" },
-      { text: "Categories", link: "/categories/jiqixuexi/1/" },
-      { text: "Tags", link: "/tags/Archlinux/1/" },
+      { text: "Home", link: "/", icon: "Home" },
+      { text: "Categories", link: "/categories/jiqixuexi/1/", icon: "Category" },
+      { text: "Tags", link: "/tags/Archlinux/1/", icon: "Tag" },
+      { text: "时间线", link: "/timeline", icons: "Time"},
       {
         text: '文档',
-        icon: 'SubVolume',
+        icon: 'DocumentAttachment',
         children: [
           // { text: '论文阅读', link: '/docs/Papers/强化学习/2.md' },
           { text: 'LeetCode', link: '/docs/LeetCode/88.md'},
