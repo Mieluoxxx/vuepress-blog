@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as c}from"./app-0978fb63.js";const _={},s=c("p",null,"大家好，我是真真夜夜，希望与大家一起学习进步╭(●｀∀´●)╯",-1),a=[s];function n(r,l){return t(),o("div",null,a)}const d=e(_,[["render",n],["__file","about.html.vue"]]);export{d as default};

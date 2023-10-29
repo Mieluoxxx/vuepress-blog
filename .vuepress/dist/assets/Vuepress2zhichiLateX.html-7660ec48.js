@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-1ed83394","path":"/blogs/Env.Cnf/Vuepress2zhichiLateX.html","title":"Vuepress2支持LateX.md","lang":"en-US","frontmatter":{"title":"Vuepress2支持LateX.md","date":"2023/10/29 10:38:32","categories":["环境配置"],"tags":["Blog"]},"headers":[],"git":{},"filePathRelative":"blogs/Env.Cnf/Vuepress2支持LateX.md"}');export{e as data};

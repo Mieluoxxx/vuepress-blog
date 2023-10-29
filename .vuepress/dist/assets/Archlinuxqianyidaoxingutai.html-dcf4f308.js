@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-4f0a4f83","path":"/blogs/Env.Cnf/Archlinuxqianyidaoxingutai.html","title":"Archlinux迁移到新固态","lang":"en-US","frontmatter":{"title":"Archlinux迁移到新固态","date":"2023/04/19 08:34:32","categories":["环境配置"],"tags":["Archlinux"]},"headers":[],"git":{},"filePathRelative":"blogs/Env.Cnf/Archlinux迁移到新固态.md"}');export{t as data};

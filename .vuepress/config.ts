@@ -3,7 +3,7 @@ import recoTheme from "vuepress-theme-reco";
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
 export default defineUserConfig({
-  title: "真真夜夜的博客",
+  title: "咕噜咕噜",
   description: "Just playing around",
   theme: recoTheme({
     // 主题颜色
