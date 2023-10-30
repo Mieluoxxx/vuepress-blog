@@ -1,54 +1,77 @@
 ---
-title: Archlinux安装Clash
+title: ArchLinux(EndeavorOS)开局
 date: 2023/10/21 08:34:32
 categories:
     - 环境配置
 tags: 
     - Archlinux
+    - Clash
 ---
 
-## 安装
-Github release 链接：[https://github.com/Fndroid/clash_for_windows_pkg/releases](https://github.com/Fndroid/clash_for_windows_pkg/releases)
-
-在其中找到需要的版本，然后下载即可，如果国内下载较慢的话，可以使用大佬提供的代理1，使用方式是在下载链接的前面加上 `https://ghproxy.com/` 即可，则代理后的链接为
-`https://ghproxy.com/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.34/Clash.for.Windows-0.20.34-x64-linux.tar.gz`
-
-下载后应该是名为 Clash.for.Windows-version-x64-linux.tar.gz 的文件，然后解压：
-`tar -zxvf Clash.for.Windows.xxx` 
-解压后会出现对应的文件夹，文件夹中会有一个名为 cfw 的文件，按理说现在在文件中直接打开终端，然后运行
-`./cfw` 
-就会直接打开 Clash For Windows 了，与 Windows 版本基本平常无差。
+## EndeavorOS在线安装
+```bash
+nano /etc/calamares/modules/welcome_online.conf
+# 将检查的网址替换为www.baidu.com
+```
 
 
+## 安装中文输入法
+```bash
+sudo pacman -S fcitx5 fcitx5-im fcitx5-qt fcitx5-gtk fcitx5-chinese-addons fcitx5-configtool fcitx5-rime 
+```
 
-## 方便使用
+```bash
+# ~/.xprofile
+GTK_IM_MODULE DEFAULT=fcitx
+QT_IM_MODULE  DEFAULT=fcitx
+XMODIFIERS    DEFAULT=\@im=fcitx
+INPUT_METHOD  DEFAULT=fcitx
+SDL_IM_MODULE DEFAULT=fcitx
+GLFW_IM_MODULE DEFAULT=ibus
+```
 
-接下来最好可以链接一个启动项来方便配置，不过，是可选的：
 
-`mkdir -p ~/.local/bin`
+首先检查一下 locale 配置，`locale -a` 看一下结果中是否有 `zh_CN.utf8`，如果没有请先修改 `/etc/locale.gen` 文件将 `zh_CN.utf8` 取消注释，然后使用 `sudo locale-gen` 重新生成。
 
-`ln -s /home/user/Downloads/xxxx/cfw /home/user/.local/bin/cfw` # 软链接
+```bash
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XIM=fcitx
+export XIM_PROGRAM=fcitx
+export XMODIFIERS="@im=fcitx"
+export SDL_IM_MODULE=fcitx
+export LC_CTYPE=zh_CN.UTF-8
+```
 
-`export PATH=/home/moguw/.local/bin:$PATH` # 环境变量
 
+## 安装Clash
+国内下载较慢的话，可以使用大佬提供的代理，使用方式是在下载链接的前面加上 `https://ghproxy.com/` 即可，则代理后的链接为`https://ghproxy.com/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.34/Clash.for.Windows-0.20.34-x64-linux.tar.gz`
 
+然后解压：`tar -zxvf Clash.for.Windows.xxx` 
+
+```bash
+mv xxxx ~/.local/share
+mkdir -p ~/.local/bin
+ln -s /home/${USER}/.local/xxxx/cfw /home/${USER}/.local/bin/cfw # 软链接
+export PATH=/home/${USER}/.local/bin:$PATH # 环境变量
+```
 
 ```bash
 sudo vim ~/.local/share/applications/clash.desktop
 
 # 写入如下内容
-
 [Desktop Entry]
 Name=Clash Fow Windows
 Exec=/home/user/.local/bin/cfw
 Icon=/home/user/.local/bin/cfw
 Type=Application
 StartupNotify=true
+
+# 设置权限
+sudo chmod +x ~/.local/share/applications/clash.desktop
 ```
 
 
-
-`sudo chmod +x ~/.local/share/applications/clash.desktop`
 
 
 
