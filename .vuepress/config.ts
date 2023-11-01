@@ -3,8 +3,6 @@ import recoTheme from "vuepress-theme-reco";
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
 export default defineUserConfig({
-  title: "咕噜咕噜",
-  description: "Just playing around",
   theme: recoTheme({
     // 主题颜色
     colorMode: 'dark',
@@ -30,27 +28,36 @@ export default defineUserConfig({
       { text: "Home", link: "/", icon: "Home" },
       { text: "Categories", link: "/categories/jiqixuexi/1/", icon: "Category" },
       { text: "Tags", link: "/tags/Archlinux/1/", icon: "Tag" },
-      { text: "时间线", link: "/timeline", icons: "Time"},
+      { text: "时间轴", link: "/timeline", icon: "AlignHorizontalCenter" },
       {
         text: '文档',
         icon: 'DocumentAttachment',
         children: [
-          // { text: '论文阅读', link: '/docs/Papers/强化学习/2.md' },
-          { text: 'LeetCode', link: '/docs/LeetCode/88.md'},
+          { 
+            text: '语言学习',
+            children: [
+              { text: 'Go', link: '/docs/Language/Go/1.md' },
+              { text: 'Rust', link: '/docs/Language/Rust/1.md' },
+            ]
+          },
+          { 
+            text: '实战',
+            children: [
+              { text: 'LeetCode', link: '/docs/LeetCode/' },
+            ]
+          }
         ],
       },
-      { text: "About", link: "/blogs/Other/about.html"}
+      { text: "About", link: "/about/about.md", icon:"LocationHeart" }
     ],
   }),
 
   plugins: [
     mdEnhancePlugin({
-      // 使用 KaTeX 启用 TeX 支持
       katex: false,
-      // 使用 mathjax 启用 TeX 支持
       mathjax: true,
     }),
   ],
+  
 
 });
-
