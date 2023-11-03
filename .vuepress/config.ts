@@ -36,8 +36,14 @@ export default defineUserConfig({
           { 
             text: '语言学习',
             children: [
-              { text: 'Go', link: '/docs/Language/Go/1.md' },
-              { text: 'Rust', link: '/docs/Language/Rust/1.md' },
+              { text: 'Go', link: '/docs/Go/' },
+              { text: 'Rust', link: '/docs/Rust/' },
+            ]
+          },
+          {
+            text: '框架学习',
+            children: [
+              { text: 'JAX', link: '/docs/JAX/' },
             ]
           },
           { 
