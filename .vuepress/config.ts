@@ -50,6 +50,7 @@ export default defineUserConfig({
             text: '实战',
             children: [
               { text: 'LeetCode', link: '/docs/LeetCode/' },
+              { text: '时间序列', link: '/docs/TimeSeries/' },
             ]
           }
         ],
