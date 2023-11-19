@@ -30,16 +30,24 @@ export default defineUserConfig({
       { text: "Tags", link: "/tags/Archlinux/1/", icon: "Tag" },
       { text: "时间轴", link: "/timeline", icon: "AlignHorizontalCenter" },
       {
-        text: '文档',
-        icon: 'DocumentAttachment',
+        text: '语言学习',
+        icon: 'Language',
         children: [
           { 
             text: '语言学习',
             children: [
               { text: 'Go', link: '/docs/Go/' },
               { text: 'Rust', link: '/docs/Rust/' },
+              { text: 'Lua', link: '/docs/Lua/' },
+              { text: 'Mojo', link: '/docs/Mojo/' },
             ]
           },
+        ],
+      },
+      {
+        text: '文档',
+        icon: 'DocumentAttachment',
+        children: [
           {
             text: '框架学习',
             children: [

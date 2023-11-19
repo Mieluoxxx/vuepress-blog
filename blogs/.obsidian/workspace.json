@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "f363423e12e12c4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f408db25b89a6beb",
+        "type": "tabs",
+        "dimension": 80.17241379310344,
+        "children": [
+          {
+            "id": "dd637d0449a717ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "机器学习/SVM支持向量机.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "12b0215747b1303a"
+          }
+        ]
+      },
+      {
+        "id": "a41ccf2a02491ca6",
+        "type": "tabs",
+        "dimension": 19.82758620689655,
+        "children": [
+          {
+            "id": "3069f36549cc59df",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "机器学习/SVM支持向量机.md"
+              }
+            },
+            "group": "12b0215747b1303a"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5cb4be81b8a507d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "3758aa1b5d9e17cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2988b4888c993976",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "64ce7b22ee71e083",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a5220157012f8069",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e3d9647550389656",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f82a09080f7d5e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "832de9b4d109a6a2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "机器学习/SVM支持向量机.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "094a999371f19bc2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "机器学习/SVM支持向量机.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "461007db12df5e04",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cd5ae1b4d7d2d169",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "机器学习/SVM支持向量机.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "dd637d0449a717ee",
+  "lastOpenFiles": [
+    "机器学习/SVD奇异值分解.md",
+    "机器学习/PCA主成分分析.md",
+    "机器学习/SVM支持向量机.md",
+    "算法/KMP算法.md"
+  ]
+}
