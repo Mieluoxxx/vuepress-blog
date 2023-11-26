@@ -1,43 +1,23 @@
 {
   "main": {
-    "id": "f363423e12e12c4a",
+    "id": "dfdfbe246572253f",
     "type": "split",
     "children": [
       {
-        "id": "f408db25b89a6beb",
+        "id": "cfb99e5d7fe0c208",
         "type": "tabs",
-        "dimension": 71.30559540889526,
         "children": [
           {
-            "id": "dd637d0449a717ee",
+            "id": "6df2bc88e04096ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "深度学习/HuggingFace使用笔记.md",
+                "file": "启示录/圣人之道吾性俱足.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "51722d4596affc29"
-          }
-        ]
-      },
-      {
-        "id": "2c5c31f8043fcc49",
-        "type": "tabs",
-        "dimension": 28.694404591104732,
-        "children": [
-          {
-            "id": "cad49819d78e5e14",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "深度学习/HuggingFace使用笔记.md"
-              }
-            },
-            "group": "51722d4596affc29"
+            }
           }
         ]
       }
@@ -45,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5cb4be81b8a507d6",
+    "id": "21587ef5fc59fcea",
     "type": "split",
     "children": [
       {
-        "id": "3758aa1b5d9e17cc",
+        "id": "f1f2d3fe51f6fab7",
         "type": "tabs",
         "children": [
           {
-            "id": "2988b4888c993976",
+            "id": "0a62da4f1f585c44",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +43,7 @@
             }
           },
           {
-            "id": "64ce7b22ee71e083",
+            "id": "e4404a4dc68bbe47",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -78,7 +58,7 @@
             }
           },
           {
-            "id": "a5220157012f8069",
+            "id": "2ecb1e8112aa79c7",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -89,24 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "e3d9647550389656",
+    "id": "ad71420d6133afa6",
     "type": "split",
     "children": [
       {
-        "id": "2f82a09080f7d5e3",
+        "id": "6f12670f919e0b7f",
         "type": "tabs",
         "children": [
           {
-            "id": "832de9b4d109a6a2",
+            "id": "b4da79b731e2676a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/HuggingFace使用笔记.md",
+                "file": "启示录/圣人之道吾性俱足.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,19 +97,19 @@
             }
           },
           {
-            "id": "094a999371f19bc2",
+            "id": "0aa269dfd972fc12",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "深度学习/HuggingFace使用笔记.md",
+                "file": "启示录/圣人之道吾性俱足.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "461007db12df5e04",
+            "id": "41cdb975dfdd1ed7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -141,12 +120,12 @@
             }
           },
           {
-            "id": "cd5ae1b4d7d2d169",
+            "id": "ca2d14856708ec5c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/HuggingFace使用笔记.md"
+                "file": "启示录/圣人之道吾性俱足.md"
               }
             }
           }
@@ -167,16 +146,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dd637d0449a717ee",
+  "active": "6df2bc88e04096ac",
   "lastOpenFiles": [
-    "深度学习/深度学习编译.md",
-    "深度学习/HuggingFace使用笔记.md",
-    "深度学习/混合精度训练.md",
-    "算法/优惠券收集问题.md",
-    "算法/生产者消费者问题.md",
-    "机器学习/SVM支持向量机.md",
-    "机器学习/SVD奇异值分解.md",
-    "机器学习/PCA主成分分析.md",
-    "算法/KMP算法.md"
+    "启示录.md",
+    "启示录/圣人之道吾性俱足.md",
+    "启示录",
+    "about.md"
   ]
 }

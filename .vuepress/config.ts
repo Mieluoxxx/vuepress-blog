@@ -59,6 +59,7 @@ export default defineUserConfig({
             children: [
               { text: 'LeetCode', link: '/docs/LeetCode/' },
               { text: '时间序列', link: '/docs/TimeSeries/' },
+              { text: '自然语言处理', link: '/docs/NLP/'}
             ]
           }
         ],
