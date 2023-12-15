@@ -11,6 +11,15 @@ tags:
 
 <!-- more -->
 
+## 2023.12.15
+
+homebrew 降级软件包
+
+```sh
+$brew unlink node
+$brew link --overwrite --force node@20
+```
+
 ## 2023.3.1
 
 1. 安装 homebrew
